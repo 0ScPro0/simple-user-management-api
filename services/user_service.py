@@ -16,7 +16,7 @@ class UserService:
     business logic, not on HTTP concerns or data persistence details.
     """
     
-    def __init__(self, repository: UserRepository = None):
+    def __init__(self, repository: UserRepository = None): # type: ignore
         """
         Initialize the user service with a repository.
         
